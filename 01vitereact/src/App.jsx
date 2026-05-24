@@ -1,10 +1,17 @@
-
+import Cricket from "./Rohit"
 
 function App() {
   // const [count, setCount] = useState(0)
-
+  const username = "RS45"
+  
   return (
-    <h1> Rohit's React with vite</h1>
+    <>
+    <Cricket/>
+    <h1> Rohit's React with vite {username}</h1>
+    <p>Test Para</p>
+    </>
+  
+    
   )
 }
 
